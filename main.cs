@@ -16,13 +16,17 @@ class Program
         Console.WriteLine("This program gets a user's street number and name.");
         Console.WriteLine("");
 
-        Console.WriteLine("Enter your street number: 440");
-        Console.WriteLine("Enter your street name: Longfields");
-        Console.WriteLine("Your street adress is: 440 Longfields");
+        Console.Write("Enter street number: ");
+        Console.Write("Enter street name: ");
+        Console.Write("Enter street adress: ");
         streetNumber = Console.ReadLine();
         Console.Write("Enter your name: ");
         name = Convert.ToInt32(Console.ReadLine());
-        
+        Console.WriteLine(" enter your street number:440");
+        Console.WriteLine("enter your street name:Longfields");
+        Console.WriteLine("your street adress is:440 Longfields");
+
+
         Console.WriteLine("");
         Console.WriteLine("Your info is: " + streetNumber + ", name " + name + ".");
 
