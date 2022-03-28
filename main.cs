@@ -18,7 +18,7 @@ class Program
 
         Console.WriteLine("Enter your street number: 440");
         Console.WriteLine("Enter your street name: Longfields");
-        Console.WriteLine("Your adress is: 440 Longfields");
+        Console.WriteLine("Your address is: 440 Longfields");
         streetNumber = Console.ReadLine();
         Console.Write("Enter your name: ");
         name = Convert.ToInt32(Console.ReadLine());
