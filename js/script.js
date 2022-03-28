@@ -8,6 +8,6 @@
 function enterAddressClicked() {
 
   document.getElementById('add-streetNumber').innerHTML = '<p>440 + 0' + (440 + 0) + '</p>'
-  document.getElementById('add-streetName').innerHTML = '<p>Longfields' + (Longfields) + '</p>'
-  document.getElementById('enter-address').innerHTML = '<p>440 Longfields' + (440,Longfields') + '</p>'
+  document.getElementById('Longfields').innerHTML = "<p>Longfields</p>"
+  document.getElementById('440 Longfields').innerHTML = "<p>440 Longfields</p>"
 }      
